@@ -57,12 +57,12 @@ function EstiloPerfecto() {
         <div className="product">
           <img className="tamano" src={diapo1} alt="Diapo 1" />
           <img className="tamano" src={diapo2} alt="Diapo 2" />
-          <img className="imag3" src={diapo3} alt="Diapo 3" />
-          <img className="imag3" src={diapo4} alt="Diapo 4" />
-          <img className="imag3" src={diapo5} alt="Diapo 5" />
+          <img className="tamano" src={diapo3} alt="Diapo 3" />
+        
         </div>
         <div className="product2">
-         
+        <img className="imag3" src={diapo4} alt="Diapo 4" />
+          <img className="imag3" src={diapo5} alt="Diapo 5" />
           
         </div>
       </div>
