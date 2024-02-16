@@ -21,6 +21,7 @@ p{
     color: white;
     padding-top: 60px;
     padding-bottom: 60px;
+    position: fixed;
 }
 
 
@@ -46,7 +47,7 @@ h3 {
 .portada img {
     max-width: 150px; /* Ajusta el ancho de la imagen según tu preferencia */
     border-radius: 12px;
-    position: fixed;
+    
 }
 
 .container {
