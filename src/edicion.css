@@ -158,6 +158,9 @@ align-items: center;
         align-items: center;
         margin-top: 10px;
     }
+    .recuadro{
+        width: 50%;
+    }
 
     .text-container {
         text-align: center;
