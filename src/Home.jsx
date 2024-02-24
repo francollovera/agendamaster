@@ -6,6 +6,7 @@ import diapo2 from './fotos/pagina2.png';
 import diapo3 from './fotos/pagina3.png';
 import diapo4 from './fotos/pagina4.png';
 import diapo5 from './fotos/pagina5.png';
+import diapo6 from './fotos/recuadros.png';
 
 
 function EstiloPerfecto() {
@@ -41,7 +42,13 @@ function EstiloPerfecto() {
           <br />
           Quería crear una app o herramienta en la que esas pequeñas notas diarias estén presentes y a la vista, y que poseamos la posibilidad de arrastrarlas y moverlas a nuestro gusto, haciendo una distinción entre nuestras tareas y notas personales, y de no cumplirlas podamos ir saltándolas en nuestro día a día hasta haberlas realizado.
         </p>
+        <p className="primertexto">
+          <br /><br /><br /><br />
+          <h3>MI ROL</h3><br /><br />
+          Ser el diseñador UX / UI creando toda la interfaz y la arquitectura pensando en el uso que le va a dar el usuario y una vez realizado encargarme de los testeos.</p>
       </div>
+      <div className="sectionrecuadro"><h2 >PROCESO DE DISEÑO</h2>
+      <img className="recuadro" src={diapo6} alt="Diapo 1" /></div>
       <div className="section1">
         <p className="segundotexto">
           <br />
@@ -52,6 +59,7 @@ function EstiloPerfecto() {
         </p>
         <br />
         <br />
+     
         <div className="tituloproducto">
           <h2>EL PRODUCTO</h2></div>
         <div className="product">
