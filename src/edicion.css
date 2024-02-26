@@ -54,11 +54,14 @@ h3 {
 
 .text-container {
     text-align: left;
+    margin-top: 40px;
     margin-right: 20px;
 }
 
 .portada img {
     max-width: 150px; /* Ajusta el ancho de la imagen según tu preferencia */
+    margin-bottom: 10px;
+    
     border-radius: 12px;
     
 }
@@ -159,7 +162,7 @@ align-items: center;
         margin-top: 10px;
     }
     .recuadro{
-        width: 65%;
+        width: 93%;
     }
 
     .text-container {

@@ -1,6 +1,7 @@
 import React from 'react';
 import './edicion.css'; 
-import portada from './fotos/Captura de pantalla 2024-01-31 173525.png';
+import portada from './fotos/Captura_de_pantalla_2024-01-31_173525.png';
+import portada1 from './fotos/pagina1a.png';
 import diapo1 from './fotos/pagina1.png';
 import diapo2 from './fotos/pagina2.png';
 import diapo3 from './fotos/pagina3.png';
@@ -29,6 +30,7 @@ function EstiloPerfecto() {
           </div>
           <div className="portada">
             <img src={portada} alt="Portada" />
+            <img src={portada1} alt="Portada" />
           </div>
         </div>
       </div>
