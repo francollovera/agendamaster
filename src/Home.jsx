@@ -1,13 +1,14 @@
 import React from 'react';
 import './edicion.css'; 
-import portada from './fotos/Captura_de_pantalla_2024-01-31_173525.png';
-import portada1 from './fotos/pagina1a.png';
+import portada from './fotos/portada.png';
+
 import diapo1 from './fotos/pagina1.png';
 import diapo2 from './fotos/pagina2.png';
 import diapo3 from './fotos/pagina3.png';
 import diapo4 from './fotos/pagina4.png';
 import diapo5 from './fotos/pagina5.png';
 import diapo6 from './fotos/recuadros.png';
+import diapo7 from './fotos/5.png';
 
 
 function EstiloPerfecto() {
@@ -15,7 +16,7 @@ function EstiloPerfecto() {
     <div className="master">
       <div className="section">
         <div className="content">
-          <div className="text-container">
+          {/* <div className="text-container">
             <h3>AGENDA MASTER</h3>
             <p className="textoinicial">
               "Agenda Master" es una aplicación<br />
@@ -27,10 +28,10 @@ function EstiloPerfecto() {
               lograr una organización óptima de la <br />
               manera más rápida y sencilla.
             </p>
-          </div>
+          </div> */}
           <div className="portada">
             <img src={portada} alt="Portada" />
-            <img src={portada1} alt="Portada" />
+            
           </div>
         </div>
       </div>
@@ -51,6 +52,8 @@ function EstiloPerfecto() {
       </div>
       <div className="sectionrecuadro"><h2 >PROCESO DE DISEÑO</h2>
       <img className="recuadro" src={diapo6} alt="Diapo 1" /></div>
+      <div className="sectionrecuadro"><h2 >PALETA DE COLORES</h2>
+      <img className="recuadro" src={diapo7} alt="Diapo 1" /></div>
       <div className="section1">
         <p className="segundotexto">
           <br />

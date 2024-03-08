@@ -53,17 +53,22 @@ h3 {
 }
 
 .text-container {
-    text-align: left;
+    text-align: center;
     margin-top: 40px;
     margin-right: 20px;
 }
 
 .portada img {
-    max-width: 150px; /* Ajusta el ancho de la imagen según tu preferencia */
+    width: 1000px; /* Ajusta el ancho de la imagen según tu preferencia */
     margin-bottom: 10px;
     
     border-radius: 12px;
-    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.recuadro{
+    width: 850px;
 }
 
 .container {
@@ -129,13 +134,13 @@ align-items: center;
 }
 .imag3{
     padding-bottom: 8px;
-    width: 30%;
+    width: 32%;
     margin: 4px;
     border-radius:8px;
 }
 
 .tamano{
-    width: 19%;
+    width: 22%;
     margin: 4px;
     border-radius:8px;
 }
@@ -201,7 +206,7 @@ align-items: center;
         margin: 4px;
     }
     .portada img {
-        max-width: 50%; 
+        max-width: 100%; 
     }
     .tituloproducto{
         font-size: 12px;
